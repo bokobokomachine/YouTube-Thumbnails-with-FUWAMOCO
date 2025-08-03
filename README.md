@@ -1,4 +1,4 @@
-# YouTube-Thumbnails-with-FUWAMOCO
+# YouTube Thumbnails with FUWAMOCO
 Adds "with FUWAMOCO" to YouTube thumbnails via user styles. "with FUWAMOCO" will appear below "LIVE" and video timestamps
 
 ## Prerequisites
