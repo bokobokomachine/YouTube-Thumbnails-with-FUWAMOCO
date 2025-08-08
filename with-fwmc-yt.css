@@ -8,6 +8,7 @@
 @-moz-document url-prefix("https://www.youtube.com/") {
     .ytd-thumbnail > yt-image::after,
     .yt-thumbnail-view-model__image::after,
+    .ytp-videowall-still-image::after,
     .shortsLockupViewModelHostThumbnailContainer::after {
         content: '';
         position: absolute;
