@@ -7,11 +7,10 @@
 ==/UserStyle== */
 @-moz-document url-prefix("https://www.youtube.com/") {
     /* Base Settings */
-    .ytd-thumbnail > yt-image::after,
+    yt-image.ytd-thumbnail:has(img)::after,
     .yt-thumbnail-view-model__image::after,
     .ytp-videowall-still-image::after,
     .shortsLockupViewModelHostThumbnailContainer::after {
-        content: '';
         position: absolute;
         top: 0;
         left: 0;
@@ -26,7 +25,7 @@
     }
     
     /* Video Thumbnails */
-    .ytd-thumbnail > yt-image::after,
+    yt-image.ytd-thumbnail:has(img)::after,
     .yt-thumbnail-view-model__image::after,
     .ytp-videowall-still-image::after {
         content: '';
