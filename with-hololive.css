@@ -1,0 +1,51 @@
+/* ==UserStyle==
+@name           YouTube Thumbnails with hololive
+@namespace      https://github.com/bokobokomachine/YouTube-Thumbnails-with-hololive
+@version        0.2
+@description    Adds some of Laplus Darknesss' masterpieces to YouTube thumbnails.
+@author         bokobokomachine
+==/UserStyle== */
+@-moz-document url-prefix("https://www.youtube.com/") {
+    /* Base Settings */
+    .ytd-thumbnail > yt-image::after,
+    .yt-thumbnail-view-model__image::after,
+    .ytp-videowall-still-image::after,
+    .shortsLockupViewModelHostThumbnailContainer::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image:
+            url('https://raw.githubusercontent.com/bokobokomachine/YouTube-Thumbnails-with-hololive/refs/heads/main/with-fwmc.png'), /* FUWAMOCO */
+            url('https://raw.githubusercontent.com/bokobokomachine/YouTube-Thumbnails-with-hololive/refs/heads/main/with-miko.png'); /* Sakura Miko */
+        background-repeat:
+            no-repeat, /* FUWAMOCO */
+            no-repeat; /* Sakura Miko */
+    }
+    
+    /* Video Thumbnails */
+    .ytd-thumbnail > yt-image::after,
+    .yt-thumbnail-view-model__image::after,
+    .ytp-videowall-still-image::after {
+        content: '';
+        background-size:
+            50%, /* FUWAMOCO */
+            35%; /* Sakura Miko */
+        background-position:
+            right bottom, /* FUWAMOCO */
+            right top; /* Sakura Miko */
+    }
+    
+    /* Shorts Thumbnails */
+    .shortsLockupViewModelHostThumbnailContainer::after {
+        content: '';
+        background-size:
+            contain, /* FUWAMOCO */
+            contain; /* Sakura Miko */
+        background-position:
+            right bottom, /* FUWAMOCO */
+            right top; /* Sakura Miko */
+    }
+}
