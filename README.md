@@ -24,6 +24,7 @@ You will need
 - If you want them to occupy the entire frame, use `background-size: contain;`.
 ### Shorts
 - If you do not want to see them on shorts' thumbnails, remove `content: '';` under the `/* Shorts Thumbnails */` section.
+- If you're using the `with hololive` userstyle and just want to remove one image, change their `background-size` value to `0`.
 ### Image
 - If you want to replace the girls with your own image, host your image somewhere (e.g. Catbox) and change the URL inside the `background-image` value.
 
