@@ -1,6 +1,6 @@
 /* ==UserStyle==
-@name           FUWAMOCO Everywhere
-@namespace      https://github.com/bokobokomachine/YouTube-Thumbnails-with-FUWAMOCO
+@name           YouTube Thumbnails with FUWAMOCO
+@namespace      https://github.com/bokobokomachine/YouTube-Thumbnails-with-hololive
 @version        0.1
 @description    Adds "with FUWAMOCO" to YouTube thumbnails.
 @author         bokobokomachine
@@ -16,7 +16,7 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background-image: url('https://raw.githubusercontent.com/bokobokomachine/YouTube-Thumbnails-with-FUWAMOCO/refs/heads/main/with-fwmc.png');
+        background-image: url('https://raw.githubusercontent.com/bokobokomachine/YouTube-Thumbnails-with-hololive/refs/heads/main/with-fwmc.png');
         background-size: 50%;
         background-repeat: no-repeat;
         background-position: right bottom;
