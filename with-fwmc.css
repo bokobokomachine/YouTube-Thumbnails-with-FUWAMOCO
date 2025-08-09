@@ -1,24 +1,39 @@
 /* ==UserStyle==
 @name           YouTube Thumbnails with FUWAMOCO
 @namespace      https://github.com/bokobokomachine/YouTube-Thumbnails-with-hololive
-@version        0.1
+@version        0.2
 @description    Adds "with FUWAMOCO" to YouTube thumbnails.
 @author         bokobokomachine
 ==/UserStyle== */
 @-moz-document url-prefix("https://www.youtube.com/") {
+    /* Base Settings */
+    yt-image.ytd-thumbnail:has(img)::after,
     .ytd-thumbnail > yt-image::after,
     .yt-thumbnail-view-model__image::after,
     .ytp-videowall-still-image::after,
     .shortsLockupViewModelHostThumbnailContainer::after {
-        content: '';
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
         height: 100%;
         background-image: url('https://raw.githubusercontent.com/bokobokomachine/YouTube-Thumbnails-with-hololive/refs/heads/main/with-fwmc.png');
-        background-size: 50%;
         background-repeat: no-repeat;
+    }
+    
+    /* Video Thumbnails */
+    yt-image.ytd-thumbnail:has(img)::after,
+    .yt-thumbnail-view-model__image::after,
+    .ytp-videowall-still-image::after {
+        content: '';
+        background-size: 50%;
+        background-position: right bottom;
+    }
+    
+    /* Shorts Thumbnails */
+    .shortsLockupViewModelHostThumbnailContainer::after {
+        content: '';
+        background-size: contain;
         background-position: right bottom;
     }
 }
