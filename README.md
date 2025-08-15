@@ -14,7 +14,7 @@ You will need
 
 | Name | Links | Preview | Original |
 | --- | --- | --- | --- |
-| with hololive | [Userstyles](https://userstyles.world/style/23626/)<br>[GitHub](/with-hololive.css) | !["with hololive" Preview](/docs/preview-with-hololive.jpg) ||
+| with hololive | [Userstyles](https://userstyles.world/style/23626/)<br>[GitHub](/with-hololive.css) | !["with hololive" Preview](/docs/preview-with-hololive.jpg) | None. I'll eventually add more members if Laplus or other members make more exploitable thumbnails. |
 | with FUWAMOCO | [Userstyles](https://userstyles.world/style/23517)<br>[GitHub](/with-fwmc.css) | !["with FUWAMOCO" Preview](/docs/preview-with-fwmc.jpg) | [![【ご褒美】待望のネリッサお姉様オフコラボ🤓汚い言葉を言ってもらう♡ ASMR KU100 withFUWAMOCO 【ラプラス・ダークネス/ホロライブ】](https://i.ytimg.com/vi/_1ffz3ADSNI/mqdefault.jpg)](https://www.youtube.com/watch?v=_1ffz3ADSNI) |
 | with Sakura Miko | [Userstyles](https://userstyles.world/style/23625)<br>[GitHub](/with-miko.css) | !["with Sakura Miko" Preview](/docs/preview-with-miko.jpg) | [![【㊗】罵倒の日にAZKiさんがASMR⁉さすがにみこさんと同時視聴な件🤓☝️【ラプラス・ダークネス/ホロライブ】](https://i.ytimg.com/vi/zSyGu0kC4dc/mqdefault.jpg)](https://www.youtube.com/watch?v=zSyGu0kC4dc) |
 
